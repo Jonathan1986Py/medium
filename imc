@@ -1,0 +1,6 @@
+import numpy as np
+
+peso = np.array([103.0, 65.5, 71.0])
+altura = np.array([1.8, 1.50, 1.72])
+IMC = peso / altura ** 2
+np.around(IMC, 2)
